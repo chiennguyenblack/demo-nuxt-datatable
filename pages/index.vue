@@ -239,11 +239,8 @@ export default {
       let heightWrapper = this.$refs.wrapper.offsetHeight;
       let scrollTop = this.$refs.wrapper.scrollTop;
       if(heightWrapper+scrollTop > heightTable){
-        console.log('call api');
         this.lokehoachpx = [...this.lokehoachpx,...this.dataMockupNextPage]
         this.listData = this.lokehoachpx;
-      }else{
-        console.log('no call');
       }
     },
     async showAllLokhpx() {
@@ -391,6 +388,7 @@ html{
   padding: 0;
   max-height: 90vh;
   position: relative;
+  background-color: lightgray;
 }
 table{
   background-color: lightgray;

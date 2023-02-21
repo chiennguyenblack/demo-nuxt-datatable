@@ -388,7 +388,7 @@ html{
   padding: 0;
   max-height: 90vh;
   position: relative;
-  background-color: lightgray;
+  border: 1px solid lightgray;
 }
 table{
   background-color: lightgray;

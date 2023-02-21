@@ -402,7 +402,7 @@ th {
   background-color: #fff;
   height: 90px;
   min-width: 52px;
-  padding: 0;
+  padding: 0px;
 }
 
 td {
@@ -411,10 +411,6 @@ td {
   min-width: 52px;
   height: 33px;
   padding: 0px 2px;
-}
-
-table {
-  border-collapse: collapse;
 }
 
 

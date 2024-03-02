@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Search Page</h1>
+    <h1>Search Page Test</h1>
     <div class="wrapper-search-bar">
       <div class="wrapper-search-input">
         <input type="text" v-model="searchText" @input="onInput" placeholder="Search...">
